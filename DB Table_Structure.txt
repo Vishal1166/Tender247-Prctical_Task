@@ -1,0 +1,7 @@
+CREATE TABLE Inventory (
+    id NUMBER PRIMARY KEY,
+    productName VARCHAR2(100),
+    description VARCHAR2(255),
+	status  VARCHAR2(50),
+    image_data BLOB
+);
